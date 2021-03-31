@@ -72,5 +72,8 @@ int main()
   } else {
     std::cout << "Lists do not interset" << std::endl;
   }
+
+  int A[10];
+  cout << sizeof(A);
   return 0;
 }
